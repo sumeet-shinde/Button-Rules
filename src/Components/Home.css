@@ -1,0 +1,52 @@
+.MainDiv{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  height: 100%;
+  font-size: 18px;
+}
+
+.LeftDiv{
+  width: 20%;
+  height: 100%;
+  border: 1px solid transparent;
+  text-align: left;
+  margin-right: 3%;
+  margin-top: 8%;
+}
+
+.LeftDiv>input{
+  margin-bottom: 5%;
+  width: 90%;
+  padding: 4%;
+  font-size: 18px;
+}
+
+.RightDiv{
+  width: 70%;
+  text-align: left;
+  height: 100%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 0% 2%;
+  margin: 2% 0%;
+  background-color: white;
+}
+
+.RightDiv>input{
+  margin: 1% 1%;
+  padding: 1%;
+  width: 50%;
+  font-size: 18px;
+}
+
+.RightDiv>div{
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: right;
+}
+
+.RightDiv>div>button{
+  font-size: 16px;
+  padding: 1%;
+  margin: 0% 2%;
+}
